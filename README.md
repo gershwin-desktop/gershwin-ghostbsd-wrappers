@@ -7,26 +7,24 @@ Compiled application wrappers
 
 ## Build Instructions
 
-### Build
+### Build the wrappers
 ```bash
 gmake
 ```
 
-### Install
+### Install wrappers in /Applications
 ```bash
 sudo gmake install 
 ```
 
-### Run
-```bash
-openapp HelloWorld
-```
-
 ### Generate new wrappers
 
-```
+```bash
 ./generate-wrapper-code.sh Chromium /usr/local/bin/chromium /Users/jmaloney/Downloads/chrome.png
 ```
 
+### Find icon using XDG
 
-
+```bash
+./iconfinder.sh /usr/local/share/applications/chromium-browser.desktop
+```

@@ -1,7 +1,7 @@
 # ghostbsd-gershwin-wrappers
 Compiled application wrappers
 
-Prerequisites
+### Prerequisites
 
 - Gershwin installation
 

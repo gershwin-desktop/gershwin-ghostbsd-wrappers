@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/local/bin/bash
 
 # Usage: generate-wrapper-code.sh <AppName> <ExecutablePath> <IconPath>
 # Example: generate-wrapper-code.sh Chromium /usr/local/bin/chromium /Users/jmaloney/Downloads/chrome.png
@@ -321,6 +321,4 @@ echo "  - GNUmakefile"
 echo "  - main.m"
 echo "  - ${LAUNCHER_CLASS}.h"
 echo "  - ${LAUNCHER_CLASS}.m"
-echo "  - LICENSE"
-echo "  - README.md"
 echo "  - $ICON_FILENAME (copied from $ICON_PATH)"

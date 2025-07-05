@@ -1,5 +1,5 @@
 # ghostbsd-gershwin-wrappers
-Compiled application wrappers designed to provide proper dock status
+Compiled application wrappers
 
 Prerequisites
 

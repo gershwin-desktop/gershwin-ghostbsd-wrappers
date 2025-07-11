@@ -6,7 +6,7 @@
 {
     self = [super init];
     if (self) {
-        updaterExecutablePath = @"/usr/local/bin/update-station";
+        updaterExecutablePath = @"/Library/Tools/Updater-CLI";
         isUpdaterRunning = NO;
         updaterTask = nil;
     }

@@ -6,7 +6,7 @@
 {
     self = [super init];
     if (self) {
-        backupsExecutablePath = @"/usr/local/bin/backup-station";
+        backupsExecutablePath = @"/Library/Tools/Backups-CLI";
         isBackupsRunning = NO;
         backupsTask = nil;
     }

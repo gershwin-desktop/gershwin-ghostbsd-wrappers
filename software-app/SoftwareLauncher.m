@@ -6,7 +6,7 @@
 {
     self = [super init];
     if (self) {
-        softwareExecutablePath = @"/usr/local/bin/software-station";
+        softwareExecutablePath = @"/Library/Tools/Software-CLI";
         isSoftwareRunning = NO;
         softwareTask = nil;
     }

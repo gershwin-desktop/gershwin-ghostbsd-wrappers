@@ -2,7 +2,7 @@
 # Builds and installs CLI tools and app wrappers
 
 # Define app subdirectories
-APP_DIRS = backups-app installer-app software-app updater-app
+APP_DIRS = backups-app software-app updater-app
 
 # Define CLI scripts to install
 CLI_SCRIPTS = Library/Tools/Backups-CLI Library/Tools/Software-CLI Library/Tools/Updater-CLI
